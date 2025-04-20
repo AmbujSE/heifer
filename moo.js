@@ -1,5 +1,3 @@
-function moo(name) {
+export default function moo(name) {
   return `moo, ${name}!`;
 }
-
-module.exports = moo;
